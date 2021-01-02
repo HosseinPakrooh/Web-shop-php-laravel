@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @font-face {
+            font-family: 'yekan';
+            src: url('font/Weblogma_Yekan.ttf') format('truetype');
+        }
+        .yekan{font-family: 'yekan';}
+        .fontsm{font-size: 10%;}
+        .fontmd{font-size: 11%;}
+        .fontlg{font-size: 12%;}
+
+    </style>
+    <meta charset="UTF-8">
+    <title>aps4</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Footer-with-button-logo.css">
+</head>
+<body style="background-color: #e7e7e7">
+<div class="container-fluid yekan">
+    <div class="row" style="height: 36px;background-color: #f9f9f9">
+        <div class="col-ms-12 hidden-xs  hidden-sm text-right" style="font-size: 12pt">
+            <p id="text-header">به فروشگاه ما خوش امدید
+                <a style="text-decoration: none">ورود</a>
+                یا
+                <a style="text-decoration: none">ثبت نام</a>
+            </p>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid yekan">
+    <div class="row" style="height: 91px;background-color: #ffffff">
+        <div class=" col-md-3 hidden-xs hidden-sm" style="height: 91px">
+            <img id="brand" src="img/logo.png" width="160px">
+        </div>
+        <div class=" col-md-6 hidden-xs hidden-sm text-center" style="height: 91px">
+            <div id="btn_serch">
+                <img src="img/search.png">
+            </div>
+            <input placeholder="جستجو کنید" id="input_serch" type="text">
+        </div>
+        <div class=" col-md-3 hidden-xs hidden-sm " style="height: 91px">
+            <div id="basket">
+                <div id="basket_left">
+                    <div id="basket_total">
+                        <p>0</p>
+                    </div>
+                </div>
+                <div id="basket_rigth">
+                    <img src="img/basket.png" width="28px" height="24px">
+                    <p>0 تومان</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid yekan">
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <div class="col-xs-1 col-sm-1  hidden-lg hidden-md">
+                    <img src="img/user-silhouette.png" width="24px" style="margin-top: 10px">
+                </div>
+                <div class="col-xs-1 col-sm-1  hidden-lg hidden-md">
+                    <img src="img/basket.png" width="24px" style="margin-top: 10px">
+                </div>
+                <div class="col-xs-1 col-sm-1  hidden-lg hidden-md">
+                    <img src="img/musica-searcher.png" width="24px" style="margin-top: 10px">
+                </div>
+                <div class="col-xs-4 col-sm-4  hidden-lg hidden-md">
+                    <img src="img/logo.png" width="100px">
+                </div>
+                <div class="col-xs-3 col-sm-3  hidden-lg hidden-md pull-right">
+                    <button type="button" data-target="#navdiv" aria-expanded="false"  data-toggle="collapse" class="navbar-toggle collapsed">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navdiv">
+                <ul id="navul" class="nav navbar-nav navbar-right">
+                    <li><a>قوانین</a></li>
+                    <li><a>تماس با ما</a></li>
+                    <li><a>حراجی</a></li>
+                    <li><a>دیسک</a></li>
+                    <li><a>اکانت</a></li>
+                    <li><a>خانه</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row main">
+        <div class="main-login main-center">
+
+            <form class="" method="post" action="#">
+
+                <div class="form-group text-right">
+                    <label for="name" class="cols-sm-2 control-label ">نام</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <input style="text-align: right" type="text" class="form-control" name="name" id="name"  placeholder="نام خود را وارد کنید"/>
+                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-right">
+                    <label for="email" class="cols-sm-2 control-label">ایمیل</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <input style="text-align: right" type="text" class="form-control" name="email" id="email"  placeholder="ایمیل خود را وارد کنید"/>
+                            <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-right">
+                    <label for="username" class="cols-sm-2 control-label">نام کابری</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <input style="text-align: right" type="text" class="form-control" name="username" id="username"  placeholder="نام کابری خود را وارد کنید"/>
+                            <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-right">
+                    <label for="password" class="cols-sm-2 control-label">رمز</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <input style="text-align: right" type="password" class="form-control" name="password" id="password"  placeholder="رمز خود را وارد کنید"/>
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-right">
+                    <label for="confirm" class="cols-sm-2 control-label">تکرار رمز</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <input style="text-align: right" type="password" class="form-control" name="confirm" id="confirm"  placeholder="تکرار رمز"/>
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <a href="https://deepak646.blogspot.com/" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">ثبت نام</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+<div class="content">
+</div>
+<footer id="myFooter" class="yekan">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+
+            </div>
+            <div class="col-sm-2">
+                <h5>دسترسی</h5>
+                <ul>
+                    <li><a href="#">حراجی</a></li>
+                    <li><a href="#">دیسک</a></li>
+                    <li><a href="#">اکانت</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>قوانین</h5>
+                <ul>
+                    <li><a href="#">زمان تحویل اکانت</a></li>
+                    <li><a href="#">طرح حراجی</a></li>
+                    <li><a href="#">خرید از سایت</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>سوالات متداول</h5>
+                <ul>
+                    <li><a href="#">درباره حراجی</a></li>
+                    <li><a href="#"> درباره ظرفیت ها</a></li>
+                    <li><a href="#">درباره ریجین</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <div class="social-networks">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>تلفن:09379769601</p>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
